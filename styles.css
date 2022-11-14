@@ -1,3 +1,49 @@
 header1 {
     width: 100%;
 }
+
+/*---------------------------------TÂN SINH VIÊN---------------------------------------*/
+a.lk_tsv{
+    text-decoration: none;
+    color: black;
+  }
+  a.lkimg_tsv{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+  }
+  a.lkimg_tsv:hover{
+    text-decoration: underline;
+    color: yellow;
+  }
+  a.lkhtro_tsv:hover, a.lk_tsv:hover{
+    text-decoration: underline;
+    color: blue;
+    background-color: yellow;
+  }
+  div.khungchu_tsv{
+    left: 0;
+    width: 100%;
+    background-color: rgba(71, 157, 255, 0.25);
+  }
+  li.htro_tsv::marker{
+    content: ">> ";
+    color: blue;
+  }
+  li.hot_tsv::marker{
+    color: red;
+  }
+  i.down_tsv{
+    color: rgb(195, 195, 195);
+  }
+
+/*---------------------------------TIN TỨC---------------------------------------*/
+  h6.tde_tt{
+    text-align: justify;
+  }
+  img.anh_tt{
+    height: 30ex;
+    width: 100%;
+  }
+  div.khung_tt{
+    height: 50ex;
+  }
