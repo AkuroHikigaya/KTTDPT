@@ -5,18 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tin Tức</title>
-    <link rel=" shortcut icon" href="images/logoCTU.png">
+    <link rel=" shortcut icon" href="src/images/logoCTU.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles.css">
     <style>
-
+      h6.tde_tt{
+        text-align: justify;
+      }
+      img.anh_tt{
+        height: 30ex;
+        width: 100%;
+      }
+      div.khung_tt{
+        height: 50ex;
+      }
     </style>
 </head>
 <body>                   
     <header>
-        <img src="images/header.png" alt="" width="100%">
+        <img src="src/images/header.png" alt="" width="100%">
 
         <nav class="navbar navbar-expand-sm">
           <div class="container-fluid">
@@ -46,7 +55,7 @@
               </ul>
               <form class="d-flex" role="search">
                 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
+                <button class="btn btn-outline-primary" type="submit">Search</button>
               </form>
             </div>
           </div>
@@ -55,54 +64,132 @@
     <main class="container p-3 my-1 border">
 
         <div class="row">
+
+          
             <div class="col col-sm-4 border border-primary shadow p-3">
               <!-- Nav tabs -->
               <ul class="nav nav-tabs ">
                 <li class="nav-item">
-                <a class="nav-link active" data-bs-toggle="tab" href="#menu1">Tin Mới Nhất</a>
+                <a class="nav-link active" data-bs-toggle="tab" href="#menu1">Tin Mới</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" data-bs-toggle="tab" href="#menu2">Tin Hot Nhất</a>
+                <a class="nav-link" data-bs-toggle="tab" href="#menu2">Tin Hot</a>
                 </li>
               </ul>
               
               <!-- Tab panes -->
               <div class="tab-content ">
                   <div class="tab-pane container active" id="menu1">
-                    <div class="card" style="width:100%">
-                      <img class="card-img-top" src="images/tansinhvien/anh1.jpg" alt="Card image">
+                    <div class="card" style="width:100%;">
+                      <img class="card-img-top" src="src/images/tintuc/moi1.jpg" alt="Card image">
                       <div class="card-body">
-                          <h4 class="card-title">John Doe</h4>
-                      
-                          <a href="#" class="btn btn-primary">Xem ngay</a>
-                          <p class="card-text"><i class="fa fa-eye"></i> Lượt xem:</p>
+                          <h6 class="card-title tde_tt">PGS.TS. Hoàng Minh Sơn Thứ trưởng Bộ Giáo dục và Đào tạo đến thăm và làm việc với Trường Đại học Cần Thơ</h6>
+                          <a href="#" class="btn btn-outline-primary btn-sm d-grid">Xem ngay</a>
+                          <p class="card-text"><i class="fa fa-eye"></i> Lượt xem: 49</p>
                       </div>
+                    </div>
+                    <div class="card" style="width:100%;">
+                      <img class="card-img-top" src="src/images/tintuc/moi2.jpg" alt="Card image">
+                      <div class="card-body">
+                          <h6 class="card-title tde_tt">Phiên bế mạc đợt đánh giá ngoài từ xa chương trình đào tạo theo tiêu chuẩn AUN-QA lần thứ 302 tại Trường Đại học Cần Thơ</h6>
+                          <a href="#" class="btn btn-outline-primary btn-sm d-grid">Xem ngay</a>
+                          <p class="card-text"><i class="fa fa-eye"></i> Lượt xem: 60</p>
+                      </div>
+                    </div>
+                    <div class="card" style="width:100%;">
+                      <img class="card-img-top" src="src/images/tintuc/moi3.jpg" alt="Card image">
+                      <div class="card-body">
+                          <h6 class="card-title tde_tt">Khai mạc Đánh giá ngoài từ xa chương trình đào tạo theo tiêu chuẩn AUN-QA lần thứ 302 tại Trường Đại học Cần Thơ</h6>
+                          <a href="#" class="btn btn-outline-primary btn-sm d-grid">Xem ngay</a>
+                          <p class="card-text"><i class="fa fa-eye"></i> Lượt xem: 132</p>
+                      </div>
+                    </div>
                   </div>
-                  </div>
+
                   <div class="tab-pane container fade" id="menu2">
-                    
+                    <div class="card" style="width:100%;">
+                      <img class="card-img-top" src="src/images/tintuc/hot1.png" alt="Card image">
+                      <div class="card-body">
+                          <h6 class="card-title tde_tt">CUSC đạt Giải thưởng Chuyển đổi số Việt Nam (Vietnam Digital Awards – VDA) 2022</h6>
+                          <a href="#" class="btn btn-outline-primary btn-sm d-grid">Xem ngay</a>
+                          <p class="card-text"><i class="fa fa-eye"></i> Lượt xem: 175</p>
+                      </div>
+                    </div>
+                    <div class="card" style="width:100%;">
+                      <img class="card-img-top" src="src/images/tintuc/hot2.jpg" alt="Card image">
+                      <div class="card-body">
+                          <h6 class="card-title tde_tt">Diễn đàn “Không gian Đổi mới Sáng tạo” của dự án BUILD-IT tại Trường Đại học Cần Thơ</h6>
+                          <a href="#" class="btn btn-outline-primary btn-sm d-grid">Xem ngay</a>
+                          <p class="card-text"><i class="fa fa-eye"></i> Lượt xem: 171</p>
+                      </div>
+                    </div>
+                    <div class="card" style="width:100%;">
+                      <img class="card-img-top" src="src/images/tintuc/hot3.jpg" alt="Card image">
+                      <div class="card-body">
+                          <h6 class="card-title tde_tt">“Chuyện sinh viên” - Chương trình gặp gỡ ý nghĩa dành cho tân sinh viên K48</h6>
+                          <a href="#" class="btn btn-outline-primary btn-sm d-grid">Xem ngay</a>
+                          <p class="card-text"><i class="fa fa-eye"></i> Lượt xem: 126</p>
+                      </div>
+                    </div>
                   </div>
               </div>
             </div>
 
+
+
             <div class="col">
-              <div class="card" style="width:100%">
-                  <img class="card-img-top" src="images/tansinhvien/anh1.jpg" alt="Card image">
+              <div class="card khung_tt" style="width:100%;">
+                  <img class="card-img-top anh_tt" src="src/images/tintuc/anh1.jpg" alt="Card image">
                   <div class="card-body">
-                      <h6 class="card-title">Lễ Khánh thành Tòa nhà phức hợp Phòng thí nghiệm và Tòa nhà Công nghệ cao - Dự án Nâng cấp trường Đại học Cần Thơ</h6>
-                      <a href="#" class="btn btn-primary">Xem ngay</a>
+                      <h6 class="card-title tde_tt">Chương trình “Thắp sáng ước mơ Sinh viên Đại học Cần Thơ” lần thứ 6 năm học 2022 - 2023</h6>
+                      <a href="#" class="btn btn-outline-primary btn-sm d-grid">Xem ngay</a>
+                      <p class="card-text"><i class="fa fa-eye"></i> Lượt xem: 71</p>
                   </div>
               </div>
-            </div>
-            <div class="col">
-                <div class="card" style="width:100%">
-                    <img class="card-img-top" src="images/tansinhvien/anh1.jpg" alt="Card image">
-                    <div class="card-body">
-                        <h4 class="card-title">John Doe</h4>
-                        <p class="card-text">Some example text.</p>
-                        <a href="#" class="btn btn-primary">Xem ngay</a>
-                    </div>
+              <div class="card khung_tt" style="width:100%;">
+                <img class="card-img-top anh_tt" src="src/images/tintuc/anh2.jpg" alt="Card image">
+                <div class="card-body">
+                    <h6 class="card-title tde_tt">Tọa đàm "Đào tạo từ xa trong bối cảnh tự chủ giáo dục đại học"</h6>
+                    <a href="#" class="btn btn-outline-primary btn-sm d-grid">Xem ngay</a>
+                    <p class="card-text"><i class="fa fa-eye"></i> Lượt xem: 83</p>
                 </div>
+              </div>
+              <div class="card khung_tt" style="width:100%;">
+                <img class="card-img-top anh_tt" src="src/images/tintuc/anh3.jpg" alt="Card image">
+                <div class="card-body">
+                    <h6 class="card-title tde_tt">Hội nghị Tập huấn Công tác Pháp chế ngành Giáo dục năm 2022</h6>
+                    <a href="#" class="btn btn-outline-primary btn-sm d-grid">Xem ngay</a>
+                    <p class="card-text"><i class="fa fa-eye"></i> Lượt xem: 112</p>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="col">
+              <div class="card khung_tt" style="width:100%;">
+                <img class="card-img-top anh_tt" src="src/images/tintuc/anh4.jpg" alt="Card image">
+                <div class="card-body">
+                    <h6 class="card-title tde_tt">Hội nghị Tổng kết hoạt động công đoàn năm học 2021-2022 và phương hướng nhiệm vụ năm học 2022-2023</h6>
+                      <a href="#" class="btn btn-outline-primary btn-sm d-grid">Xem ngay</a>
+                      <p class="card-text"><i class="fa fa-eye"></i> Lượt xem: 86</p>
+                </div>
+              </div>
+              <div class="card khung_tt" style="width:100%;">
+                <img class="card-img-top anh_tt" src="src/images/tintuc/anh5.jpg" alt="Card image">
+                <div class="card-body">
+                    <h6 class="card-title tde_tt">CUSC được vinh danh top 10 Doanh nghiệp CNTT Việt Nam 2022</h6>
+                    <a href="#" class="btn btn-outline-primary btn-sm d-grid">Xem ngay</a>
+                    <p class="card-text"><i class="fa fa-eye"></i> Lượt xem: 110</p>
+                </div>
+              </div>
+              <div class="card khung_tt" style="width:100%;">
+                <img class="card-img-top anh_tt" src="src/images/tintuc/anh6.jpg" alt="Card image">
+                <div class="card-body">
+                    <h6 class="card-title tde_tt">Vòng chung kết Cuộc thi Olympic Luật học lần thứ VI năm 2022</h6>
+                    <a href="#" class="btn btn-outline-primary btn-sm d-grid">Xem ngay</a>
+                    <p class="card-text"><i class="fa fa-eye"></i> Lượt xem: 97</p>
+                </div>
+              </div>
             </div>
         </div>
 
