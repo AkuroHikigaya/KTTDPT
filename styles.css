@@ -35,3 +35,15 @@ a.lk_tsv{
   i.down_tsv{
     color: rgb(195, 195, 195);
   }
+
+/*---------------------------------TIN TỨC---------------------------------------*/
+  h6.tde_tt{
+    text-align: justify;
+  }
+  img.anh_tt{
+    height: 30ex;
+    width: 100%;
+  }
+  div.khung_tt{
+    height: 50ex;
+  }
