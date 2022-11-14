@@ -1,0 +1,65 @@
+.main_about {
+    font-size: 62.5%;
+    font-family: sans-serif;
+    max-width: 100vw;
+    /* height: 20px; */
+    /* background-color: #000; */
+}
+
+.about_desc_text p {
+    text-align: justify;
+    font-size: 0.9rem;
+    letter-spacing: 0.2px;
+}
+
+@media only screen and (max-width: 576px) {
+    .about_desc_text h3 {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .about-desc_img img {
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .about-strategy_section .card {
+        margin-bottom: 5px;
+    }
+}
+
+.about-strategy_section p,
+.about_workspace p,
+.about_activities p,
+.about_work div,
+figcaption,
+.abouts_desc p {
+    font-size: 0.9rem;
+    text-align: justify;
+}
+
+.about-strategy_section .card:nth-child(odd) {
+    height: 248px;
+}
+
+.about_workspace img,
+.about_work img {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.abouts_desc h2 {
+    position: relative;
+}
+
+.abouts_desc h2::before {
+    content: "";
+    width: 3px;
+    height: 30px;
+    position: absolute;
+    left: 0%;
+    top: 22%;
+    background-color: blue;
+}
