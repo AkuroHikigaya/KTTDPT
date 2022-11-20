@@ -1,6 +1,48 @@
 header1 {
     width: 100%;
 }
+/*---------------------------------TRANG CHỦ---------------------------------------*/
+.goc-anh-row{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.goc-anh-column {
+  flex: 33%;
+  max-width: 33%;
+  padding: 4 4px;
+}
+
+.goc-anh-column img {
+  margin-top: 10px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+/*---------------------------------ĐÀO TẠO---------------------------------------*/
+.dt-lk{
+  text-decoration: none;
+  color: black;
+}
+
+.dt-lk:hover{
+  text-decoration: underline;
+}
 
 /*---------------------------------TÂN SINH VIÊN---------------------------------------*/
 a.lk_tsv{
