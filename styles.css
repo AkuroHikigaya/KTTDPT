@@ -35,13 +35,23 @@ header1 {
 }
 
 /*---------------------------------ĐÀO TẠO---------------------------------------*/
-.dt-lk{
+.li_dt::marker{
+  content: none;
+}
+a.lk_dt{
   text-decoration: none;
   color: black;
 }
-
-.dt-lk:hover{
+a.lk_dt:hover{
   text-decoration: underline;
+  color: blue;
+  background-color: yellow;
+}
+.vachngan_dt{
+  width: 25%;
+}
+.canbang_dt{
+  text-align: justify;
 }
 
 /*---------------------------------TÂN SINH VIÊN---------------------------------------*/
