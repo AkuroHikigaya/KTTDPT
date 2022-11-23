@@ -99,3 +99,29 @@ a.lk_tsv{
   div.khung_tt{
     height: 50ex;
   }
+
+  /*---------------------------------GIẢNG VIÊN---------------------------------------*/
+.table_gg {
+	width: 60%;
+	background-color: #99c7ef;
+  margin-left: auto;
+  margin-right: auto;
+ 
+	
+}
+.table_gg a{
+	text-decoration: none;
+}
+.table_gg thead{
+	text-align: center;
+	background-color: #4d4dee;
+	color:#f3f3f3;
+}
+.table_gg span{
+	color:red;
+	float:right;
+	
+}
+a{
+	text-decoration: none;
+}
