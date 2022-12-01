@@ -136,3 +136,11 @@ a{
 .button_ht{
   text-align: center;
 }
+
+/*---------------------------------TEST---------------------------------------*/
+
+.navbar .navbar-nav .nav-item .nav-link:hover{
+  text-decoration: underline;
+  color: blue;
+}
+
