@@ -53,6 +53,7 @@ a.lk_dt:hover {
 .vachngan_dt{
   font-weight: 600;
   text-align: right;
+  width: 25%;
 }
 
 .canbang_dt {
@@ -165,6 +166,7 @@ a {
   padding: 5px;
   font-size: 20px;
   color: #0d6efd;
+
 }
 
 /*---------------------------------Giới thiệu---------------------------------------*/
