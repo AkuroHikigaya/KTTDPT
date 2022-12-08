@@ -3,6 +3,11 @@ header1 {
 }
 
 /*---------------------------------TRANG CHỦ---------------------------------------*/
+.nenvang_tc{
+  background-color: yellow;
+  color: darkblue;
+}
+
 .goc-anh-row {
   display: flex;
   flex-wrap: wrap;
@@ -159,7 +164,7 @@ a {
   text-align: center;
 }
 
-/*---------------------------------TEST---------------------------------------*/
+/*---------------------------------NAV---------------------------------------*/
 
 .navbar .navbar-nav .nav-item .nav-link:hover{
   text-decoration: none;
