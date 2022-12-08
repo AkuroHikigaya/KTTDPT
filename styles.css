@@ -48,6 +48,8 @@ a.lk_dt:hover{
   background-color: yellow;
 }
 .vachngan_dt{
+  font-weight: 600;
+  text-align: right;
   width: 25%;
 }
 .canbang_dt{
@@ -140,7 +142,9 @@ a{
 /*---------------------------------TEST---------------------------------------*/
 
 .navbar .navbar-nav .nav-item .nav-link:hover{
-  text-decoration: underline;
-  color: blue;
+  text-decoration: none;
+  padding: 5px;
+  font-size: 20px;
+  color: #0d6efd;
 }
 
