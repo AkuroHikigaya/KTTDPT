@@ -158,7 +158,14 @@ a {
 .button_ht {
   text-align: center;
 }
-
+.table_ht th{
+  text-align: center;
+  background-color: #0d6efd;
+  color:#f3f3f3;
+}
+.nav_ht{
+  color:black;
+}
 /*---------------------------------TEST---------------------------------------*/
 
 .navbar .navbar-nav .nav-item .nav-link:hover{
