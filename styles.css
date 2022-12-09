@@ -9,22 +9,27 @@ header{
   background-image: url(src/images/header.png);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 270px;
+  background-position-y: -70px;
+  padding-bottom: 3%;
+  margin-top: 78px;
 }
 
 #logo{
-  position: relative;
-  width: 180px;
+  position: absolute;
+  width: 170px;
   left: 60px;
 }
 
 .header-title{
+  width: 100%;
+  display: flex;
   text-align: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 #header-title-1{
   position: relative;
-  bottom: 160px;
   left: auto;
   right: auto;
   font-size: 50px;
@@ -34,7 +39,6 @@ header{
 }
 
 #header-title-2{
-  position: relative;
   bottom: 150px;
   left: auto;
   right: auto;
@@ -45,7 +49,6 @@ header{
 }
 
 #header-title-3{
-  position: relative;
   bottom: 150px;
   float: right;
   right: 100px;
@@ -53,6 +56,22 @@ header{
   font-weight: 400;
   color: #fff;
   text-shadow:5px 5px 5px #004aad;
+  padding-right: 1%;
+}
+
+nav{
+  position: fixed;
+  background-image: url(src/images/header.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+}
+
+.navbar{
+  position: fixed;
+  z-index: 1000;
 }
 
 .nav-item{
@@ -62,7 +81,7 @@ header{
   overflow: hidden;
 }
 
-.nav-link{
+.nav-title{
   color: white;
 }
 
@@ -71,7 +90,6 @@ header{
   background-color: #fff;
   color: black;
 }
-
 
 footer{
   font-family: 'Saira', sans-serif;
@@ -100,13 +118,31 @@ footer{
   text-align: center;
 }
 
+.footer-link:hover  {
+  text-decoration: underline;
+}
+
 .footer-link-icon{
   font-size: x-large;
 }
+
+footer .gotop{
+	position: fixed;
+	bottom: 5px;
+	right:10px;
+	z-index:100;
+}
 /*---------------------------------TRANG CHỦ---------------------------------------*/
 .nenvang_tc {
-  background-color: yellow;
+  background-image: linear-gradient(to right, white, yellow, yellow, white);
   color: darkblue;
+  margin-bottom: 2px;
+}
+
+.home-title{
+  background-image: linear-gradient(to right, rgb(49, 49, 250), white, white);
+  color: #fff;
+  padding: 10px;
 }
 
 .goc-anh-row {
@@ -127,19 +163,6 @@ footer{
   width: 100%;
 }
 
-@media screen and (max-width: 800px) {
-  .column {
-    flex: 50%;
-    max-width: 50%;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .column {
-    flex: 100%;
-    max-width: 100%;
-  }
-}
 
 /*---------------------------------ĐÀO TẠO---------------------------------------*/
 .li_dt::marker {
@@ -359,4 +382,63 @@ figcaption,
 
 .nc_gt-check_btn .card:hover {
   background-color: blue;
+}
+
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+
+
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+
+  header{
+    /* height: 120px; */
+  }
+  
+  #logo{
+    width: 60px;
+    left: auto;
+    right: auto;
+  }
+  
+  #header-title-1{
+    position: relative;
+    bottom: 80px;
+    left: auto;
+    right: auto;
+    font-size: 15px;
+    font-weight: 700;
+    color: #fff;
+    text-shadow:5px 5px 5px #004aad;
+  }
+  
+  #header-title-2{
+    position: relative;
+    bottom: 80px;
+    left: auto;
+    right: auto;
+    font-size: 10px;
+    font-weight: 400;
+    color: #fff;
+    text-shadow:5px 5px 5px #004aad;
+  }
+  
+  #header-title-3{
+    position: relative;
+    bottom: 50px;
+    float: right;
+    right: 10px;
+    font-size: 7px;
+    font-weight: 400;
+    color: #fff;
+    text-shadow:5px 5px 5px #004aad;
+  }
 }
