@@ -3,7 +3,7 @@ header1 {
 }
 
 /*---------------------------------TRANG CHỦ---------------------------------------*/
-.nenvang_tc{
+.nenvang_tc {
   background-color: yellow;
   color: darkblue;
 }
@@ -55,7 +55,8 @@ a.lk_dt:hover {
   color: blue;
   background-color: yellow;
 }
-.vachngan_dt{
+
+.vachngan_dt {
   font-weight: 600;
   text-align: right;
   width: 25%;
@@ -130,7 +131,7 @@ div.khung_tt {
 /*---------------------------------GIẢNG VIÊN---------------------------------------*/
 .table_gg {
   width: 60%;
-  background-color:#c7dff5;
+  background-color: #c7dff5;
   margin-left: auto;
   margin-right: auto;
 
@@ -170,19 +171,20 @@ a {
   text-align: center;
 }
 
-.table_ht th{
+.table_ht th {
   text-align: center;
   background-color: #0d6efd;
-  color:#f3f3f3;
+  color: #f3f3f3;
 }
-.nav_ht{
-  color:black;
+
+.nav_ht {
+  color: black;
 }
 
 /*---------------------------------NAV---------------------------------------*/
 
 
-.navbar .navbar-nav .nav-item .nav-link:hover{
+.navbar .navbar-nav .nav-item .nav-link:hover {
   text-decoration: none;
   padding: 5px;
   font-size: 20px;
@@ -262,4 +264,8 @@ figcaption,
 .nc_table th,
 .nc_table td {
   border: 1px solid black;
+}
+
+.nc_gt-check_btn .card:hover {
+  background-color: blue;
 }
