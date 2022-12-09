@@ -50,7 +50,8 @@ a.lk_dt:hover {
   color: blue;
   background-color: yellow;
 }
-.vachngan_dt{
+
+.vachngan_dt {
   font-weight: 600;
   text-align: right;
   width: 25%;
@@ -161,7 +162,7 @@ a {
 
 /*---------------------------------TEST---------------------------------------*/
 
-.navbar .navbar-nav .nav-item .nav-link:hover{
+.navbar .navbar-nav .nav-item .nav-link:hover {
   text-decoration: none;
   padding: 5px;
   font-size: 20px;
@@ -241,4 +242,8 @@ figcaption,
 .nc_table th,
 .nc_table td {
   border: 1px solid black;
+}
+
+.nc_gt-check_btn .card:hover {
+  background-color: blue;
 }
