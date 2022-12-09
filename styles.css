@@ -1,7 +1,108 @@
-header1 {
-  width: 100%;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
 }
 
+header{
+  font-family: 'Saira', sans-serif;
+  background-image: url(src/images/header.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 270px;
+}
+
+#logo{
+  position: relative;
+  width: 180px;
+  left: 60px;
+}
+
+.header-title{
+  text-align: center;
+}
+
+#header-title-1{
+  position: relative;
+  bottom: 160px;
+  left: auto;
+  right: auto;
+  font-size: 50px;
+  font-weight: 700;
+  color: #fff;
+  text-shadow:5px 5px 5px #004aad;
+}
+
+#header-title-2{
+  position: relative;
+  bottom: 150px;
+  left: auto;
+  right: auto;
+  font-size: 30px;
+  font-weight: 400;
+  color: #fff;
+  text-shadow:5px 5px 5px #004aad;
+}
+
+#header-title-3{
+  position: relative;
+  bottom: 150px;
+  float: right;
+  right: 100px;
+  font-size: 20px;
+  font-weight: 400;
+  color: #fff;
+  text-shadow:5px 5px 5px #004aad;
+}
+
+.nav-item{
+  border: 1px solid #fff;
+  margin: 10px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.nav-link{
+  color: white;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover{
+  text-decoration: none;
+  background-color: #fff;
+  color: black;
+}
+
+
+footer{
+  font-family: 'Saira', sans-serif;
+  background-image: url(src/images/footer.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-footer{
+  padding: 10px;
+}
+
+#footer-logo{
+  position: relative;
+  left: -40px;
+}
+
+#footer-title{
+  position: relative;
+  left: -40px;
+}
+
+.info-co{
+  position: relative;
+  margin: 15px auto;
+  text-align: center;
+}
+
+.footer-link-icon{
+  font-size: x-large;
+}
 /*---------------------------------TRANG CHỦ---------------------------------------*/
 .nenvang_tc{
   background-color: yellow;
@@ -173,16 +274,6 @@ a {
   color:black;
 }
 
-/*---------------------------------NAV---------------------------------------*/
-
-
-.navbar .navbar-nav .nav-item .nav-link:hover{
-  text-decoration: none;
-  padding: 5px;
-  font-size: 20px;
-  color: #0d6efd;
-
-}
 
 /*---------------------------------Giới thiệu---------------------------------------*/
 .main_about {
