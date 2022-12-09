@@ -65,6 +65,12 @@ a.lk_dt:hover {
   text-align: justify;
 }
 
+.tieude_dt{
+  text-decoration: underline;
+  height: 3ex;
+}
+
+
 /*---------------------------------TÂN SINH VIÊN---------------------------------------*/
 a.lk_tsv {
   text-decoration: none;
