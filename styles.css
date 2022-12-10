@@ -140,7 +140,7 @@ footer .gotop{
 }
 
 .home-title{
-  background-image: linear-gradient(to right, rgb(49, 49, 250), white, white);
+  background-image: linear-gradient(to right, #536aff, #536aff, white, white);
   color: #fff;
   padding: 10px;
 }
