@@ -391,108 +391,12 @@ figcaption,
 
 /*---------------------------------Thích ứng---------------------------------------*/
 @media screen and (max-width: 800px) {
-  .column {
-    flex: 50%;
-    max-width: 50%;
-  }
+
 }
 
 /* *{
   border: 1px solid black;
 } */
-
 @media screen and (max-width: 600px) {
-  header{
-    font-family: 'Saira', sans-serif;
-    background-image: url(src/images/header.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-y: -70px;
-    padding-bottom: 3%;
-    margin-top: 78px;
-  }
   
-  #logo{
-    position: absolute;
-    width: 70px;
-    left: 60px;
-  }
-  
-  .header-title{
-    width: 100%;
-    display: flex;
-    text-align: center;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  #header-title-1{
-    position: relative;
-    left: auto;
-    right: auto;
-    font-size: 15px;
-    font-weight: 700;
-    color: #fff;
-    text-shadow:5px 5px 5px #004aad;
-  }
-  
-  #header-title-2{
-    bottom: 150px;
-    left: auto;
-    right: auto;
-    font-size: 15px;
-    font-weight: 400;
-    color: #fff;
-    text-shadow:5px 5px 5px #004aad;
-  }
-  
-  #header-title-3{
-    bottom: 150px;
-    float: right;
-    right: 100px;
-    font-size: 10px;
-    font-weight: 400;
-    color: #fff;
-    text-shadow:5px 5px 5px #004aad;
-    padding-right: 1%;
-  }
-  
-  nav{
-    position: fixed;
-    background-image: url(src/images/header.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    left: 0px;
-    right: 0px;
-    top: 0px;
-  }
-  
-  .navbar{
-    position: fixed;
-    z-index: 1000;
-  }
-  
-  .nav-item{
-    border: 1px solid #fff;
-    margin: 10px;
-    border-radius: 5px;
-    overflow: hidden;
-  }
-  
-  .nav-title{
-    color: white;
-  }
-  
-  .navbar .navbar-nav .nav-item .nav-link:hover{
-    text-decoration: none;
-    background-color: #fff;
-    color: black;
-  }
-
-  footer .gotop{
-    position: fixed;
-    bottom: 5px;
-    right:40px;
-    z-index:100;
-  }
 }
