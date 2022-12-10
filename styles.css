@@ -190,9 +190,11 @@ a.lk_dt:hover {
   text-align: justify;
 }
 
+
 .tieude_dt{
-  text-decoration: underline;
-  height: 3ex;
+  background-image: linear-gradient(to right, white, #536aff, #536aff, white);
+  color: #fff;
+  padding: 10px;
 }
 
 
@@ -237,6 +239,7 @@ li.hot_tsv::marker {
 i.down_tsv {
   color: rgb(195, 195, 195);
 }
+
 
 /*---------------------------------TIN TỨC---------------------------------------*/
 h6.tde_tt {
