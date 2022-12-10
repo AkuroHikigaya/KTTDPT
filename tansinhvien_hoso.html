@@ -9,54 +9,61 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Saira:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <style>
     </style>
 </head>
 <body>                   
-    <header>
-        <img src="src/images/header.png" alt="" width="100%">
-
-        <nav class="navbar navbar-expand-sm">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-        <div class="container-fluid">
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="trangchu.html">Trang chủ</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="about.html">Giới thiệu</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="tintuc.html">Tin Tức</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="daotao.html">Đào tạo</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="nghiencuu.html">Nghiên cứu</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="tansinhvien.html">Tân sinh viên</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="giangvien.html">Giảng viên</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="hoptac.html">Hợp tác</a>
-              </li>
+  <header>
+    <nav class="navbar navbar-expand-sm">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="container-fluid">
+        <div class="collapse navbar-collapse text-center" id="navbarNav">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a id="#top" class="nav-link nav-title" aria-current="page" href="trangchu.html">Trang chủ</a>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link btn-outline-light nav-title" aria-current="page" href="gioithieu.html">Giới thiệu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link btn-outline-light nav-title" aria-current="page" href="tintuc.html">Tin Tức</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link btn-outline-light nav-title" aria-current="page" href="daotao.html">Đào tạo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link btn-outline-light nav-title" aria-current="page" href="nghiencuu.html">Nghiên cứu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link btn-outline-light nav-title" aria-current="page" href="tansinhvien.html">Tân sinh viên</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link btn-outline-light nav-title" aria-current="page" href="giangvien.html">Giảng viên</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link btn-outline-light nav-title" aria-current="page" href="hoptac.html">Hợp tác</a>
+            </li>
           </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-primary" type="submit">Search</button>
-            </form>
-          </div>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-light" type="submit">Search</button>
+          </form>
         </div>
-      </nav>
-    </header>
+      </div>
+    </nav>
+    <img id="logo" src="src/images/logo.png" alt="">
+    <div class="header-title">
+      <div id="header-title-1">KHOA TRUYỀN THÔNG ĐA PHƯƠNG TIỆN</div>
+      <div id="header-title-2">COLLEGE OF MULTIMEDIA COMMUNICATION</div>
+    </div>
+    <div id="header-title-3">TRƯỜNG ĐẠI HỌC CẦN THƠ</div>
+  </header>
     <main class="container p-3 my-1 border">
 
       <div class="row ">
@@ -173,94 +180,79 @@
       </div>
 
     </main>
-    <footer class="text-center text-lg-start bg-white text-muted">
-      <!-- Section: Social media -->
-      <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
-        <!-- Left -->
-        <div class="me-5 d-none d-lg-block">
-        </div>
-        <!-- Left -->
-    
-        <!-- Right -->
-        <div>
-          <a href="" class="me-4 link-secondary">
-            <i class="fa fa-facebook-f"></i>
-          </a>
-          <a href="" class="me-4 link-secondary">
-            <i class="fa fa-twitter"></i>
-          </a>
-          <a href="" class="me-4 link-secondary">
-            <i class="fa fa-google"></i>
-          </a>
-          <a href="" class="me-4 link-secondary">
-            <i class="fa fa-instagram"></i>
-          </a>
-          <a href="" class="me-4 link-secondary">
-            <i class="fa fa-linkedin"></i>
-          </a>
-          <a href="" class="me-4 link-secondary">
-            <i class="fa fa-github"></i>
-          </a>
-        </div>
-        <!-- Right -->
-      </section>
-      <!-- Section: Social media -->
-    
-      <!-- Section: Links  -->
-      <section class="">
+    <footer class="text-center text-lg-start bg-white">
+      <section class="main-footer">
         <div class="container text-center text-md-start mt-5">
           <!-- Grid row -->
-          <div class="row mt-3">
+          <div class="row mt-3 text-white">
             <!-- Grid column -->
             <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
               <!-- Content -->
-              <h6 class="text-uppercase fw-bold mb-4">
-                <i class="fa fa-gem me-3 text-secondary"></i>KHOA
-              </h6>
-              <p>
-                Khoa Truyền thông Đa phương tiện - Trường Đại học Cần Thơ <br> College of Multimedia Communication - Can Tho University 
-              </p>
+              <img id="footer-logo" src="src/images/CTU_logo_white.png" alt="" width="110%">
+              <div class="info-co">
+                <img id="footer-title" src="src/images/footer-tittle.png" alt="" width="120%">
+                <div class="footer-link-icon">
+                  <a href="" class="me-4 text-white">
+                    <i class="fa fa-facebook-f"></i>
+                  </a>
+                  <a href="" class="me-4 text-white">
+                    <i class="fa fa-twitter"></i>
+                  </a>
+                  <a href="" class="me-4 text-white">
+                    <i class="fa fa-google"></i>
+                  </a>
+                  <a href="" class="me-4 text-white">
+                    <i class="fa fa-instagram"></i>
+                  </a>
+                  <a href="" class="me-4 text-white">
+                    <i class="fa fa-linkedin"></i>
+                  </a>
+                  <a href="" class="me-4 text-white">
+                    <i class="fa fa-github"></i>
+                  </a>
+                </div>
+              </div>
             </div>
             <!-- Grid column -->
-    
-            <!-- Grid column -->
-            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4 p-0">
               <!-- Links -->
-              <h6 class="text-uppercase fw-bold mb-4">
-                Liên kết
-              </h6>
+              <h4 class="text-uppercase fw-bold mb-4">Liên kết</h4>
               <p>
-                <a href="https://dp.ctu.edu.vn/" class="text-reset" target="_blank">PHÒNG TỔ CHỨC CÁN BỘ</a>
+                <i class="fa fa-briefcase me-2" aria-hidden="true"></i>
+                <a href="https://dp.ctu.edu.vn/" class="text-reset footer-link" target="_blank"> PHÒNG TỔ CHỨC CÁN BỘ</a>
               </p>
               <p>
-                <a href="https://daa.ctu.edu.vn/" class="text-reset" target="_blank">PHÒNG ĐÀO TẠO</a>
+                <i class="fa fa-briefcase me-2" aria-hidden="true"></i>
+                <a href="https://daa.ctu.edu.vn/" class="text-reset footer-link" target="_blank"> PHÒNG ĐÀO TẠO</a>
               </p>
               <p>
-                <a href="https://dsa.ctu.edu.vn/" class="text-reset" target="_blank">PHÒNG CT SINH VIÊN</a>
+                <i class="fa fa-briefcase me-2" aria-hidden="true"></i>
+                <a href="https://dsa.ctu.edu.vn/" class="text-reset footer-link" target="_blank"> PHÒNG CT SINH VIÊN</a>
               </p>
               <p>
-                <a href="https://dra.ctu.edu.vn/" class="text-reset" target="_blank">PHÒNG QL KHOA HỌC</a>
+                <i class="fa fa-briefcase me-2" aria-hidden="true"></i>
+                <a href="https://dra.ctu.edu.vn/" class="text-reset footer-link" target="_blank"> PHÒNG QL KHOA HỌC</a>
               </p>
             </div>
-            <!-- Grid column -->
-    
             <!-- Grid column -->
             <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
               <!-- Links -->
-              <h6 class="text-uppercase fw-bold mb-4">
-                ĐOÀN THỂ
-              </h6>
+              <h4 class="text-uppercase fw-bold mb-4">ĐOÀN THỂ</h4>
               <p>
-                <a href="http://cpv.ctu.edu.vn/" class="text-reset" target="_blank">VP ĐẢNG ỦY TRƯỜNG</a>
+                <i class="fa fa-briefcase me-2" aria-hidden="true"></i>
+                <a href="http://cpv.ctu.edu.vn/" class="text-reset footer-link" target="_blank">VP ĐẢNG ỦY TRƯỜNG</a>
               </p>
               <p>
-                <a href="http://tu.ctu.edu.vn/" class="text-reset" target="_blank">CÔNG ĐOÀN TRƯỜNG</a>
+                <i class="fa fa-briefcase me-2" aria-hidden="true"></i>
+                <a href="http://tu.ctu.edu.vn/" class="text-reset footer-link" target="_blank">CÔNG ĐOÀN TRƯỜNG</a>
               </p>
               <p>
-                <a href="http://yu.ctu.edu.vn/" class="text-reset" target="_blank">VP ĐOÀN TRƯỜNG</a>
+                <i class="fa fa-briefcase me-2" aria-hidden="true"></i>
+                <a href="http://yu.ctu.edu.vn/" class="text-reset footer-link" target="_blank">VP ĐOÀN TRƯỜNG</a>
               </p>
               <p>
-                <a href="http://www.cit.ctu.edu.vn/doankhoa/" class="text-reset" target="_blank">VP ĐOÀN KHOA</a>
+                <i class="fa fa-briefcase me-2" aria-hidden="true"></i>
+                <a href="http://www.cit.ctu.edu.vn/doankhoa/" class="text-reset footer-link" target="_blank">VP ĐOÀN KHOA</a>
               </p>
             </div>
             <!-- Grid column -->
@@ -268,28 +260,23 @@
             <!-- Grid column -->
             <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
               <!-- Links -->
-              <h6 class="text-uppercase fw-bold mb-4">LIÊN HỆ</h6>
-              <p><i class="fa fa-home me-3 text-secondary"></i>Khu 2, đường 3/2, Phường Xuân Khánh, Ninh Kiều, TP. Cần Thơ, Việt Nam</p>
+              <h4 class="text-uppercase fw-bold mb-4">LIÊN HỆ</h4>
+              <p><i class="fa fa-home me-2"></i>Khu 2, đường 3/2, Phường Xuân Khánh, Ninh Kiều, TP. Cần Thơ, Việt Nam</p>
               <p>
-                <i class="fa fa-envelope me-3 text-secondary"></i>
+                <i class="fa fa-envelope me-2"></i>
                 office@cit.ctu.edu.vn
               </p>
-              <p><i class="fa fa-phone me-3 text-secondary"></i> +84 0292 3 734713</p>
-              <p><i class="fa fa-print me-3 text-secondary"></i> +84 0292 3 831301</p>
+              <p><i class="fa fa-phone me-2"></i>+84 292 3 734713</p>
             </div>
             <!-- Grid column -->
           </div>
           <!-- Grid row -->
         </div>
+        <div class="text-white fw-bold " id="copyright">
+          © 2022 Đại học Cần Thơ
+        </div>
       </section>
-      <!-- Section: Links  -->
-    
-      <!-- Copyright -->
-      <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
-        © 2021 Copyright:
-        <a class="text-reset fw-bold" href="">Group 2</a>
-      </div>
-      <!-- Copyright -->
+      <a href="#top" class="gotop"><img class="rounded-4" src="src/images/top.png" width="60">
     </footer>
 </body>
 </html>
