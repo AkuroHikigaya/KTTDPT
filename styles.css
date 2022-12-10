@@ -424,6 +424,16 @@ figcaption,
 /* *{
   border: 1px solid black;
 } */
+/*----------------TEST----------------------*/
+/*
+@media screen and (max-width: 600px) {
+header{
+  background-image: url(src/white.png);
+}
+.hide{
+  display: none;
+}
+}*/
 
 @media screen and (max-width: 600px) {
 
