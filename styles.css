@@ -391,11 +391,11 @@ figcaption,
 
 /*---------------------------------Thích ứng---------------------------------------*/
 @media screen and (max-width: 800px) {
-  *{
+  /* *{
     border: 1px solid black;
-  }
+  } */
 
-  header{
+  /* header{
     height: 250px;
   }
 
@@ -417,13 +417,14 @@ figcaption,
     right: 100px;
     font-size: 10px;
     font-weight: 400;
-  }  
+  }   */
 
 }
 
-/* *{
+*{
   border: 1px solid black;
-} */
+}
+
 @media screen and (max-width: 600px) {
 
 }
