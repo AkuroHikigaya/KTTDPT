@@ -391,11 +391,7 @@ figcaption,
 
 /*---------------------------------Thích ứng---------------------------------------*/
 @media screen and (max-width: 800px) {
- @media screen and (max-width: 800px) {
- /* *{
-    border: 1px solid black;
-  }
-*/
+
  
   header{
     
