@@ -1,10 +1,10 @@
-*{
+* {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; 
+  box-sizing: border-box;
 }
 
-header{
+header {
   font-family: 'Saira', sans-serif;
   background-image: url(src/images/header.png);
   background-repeat: no-repeat;
@@ -12,17 +12,17 @@ header{
   height: 270px;
 }
 
-#logo{
+#logo {
   position: relative;
   width: 180px;
   left: 60px;
 }
 
-.header-title{
+.header-title {
   text-align: center;
 }
 
-#header-title-1{
+#header-title-1 {
   position: relative;
   bottom: 160px;
   left: auto;
@@ -30,10 +30,10 @@ header{
   font-size: 50px;
   font-weight: 700;
   color: #fff;
-  text-shadow:5px 5px 5px #004aad;
+  text-shadow: 5px 5px 5px #004aad;
 }
 
-#header-title-2{
+#header-title-2 {
   position: relative;
   bottom: 150px;
   left: auto;
@@ -41,10 +41,10 @@ header{
   font-size: 30px;
   font-weight: 400;
   color: #fff;
-  text-shadow:5px 5px 5px #004aad;
+  text-shadow: 5px 5px 5px #004aad;
 }
 
-#header-title-3{
+#header-title-3 {
   position: relative;
   bottom: 150px;
   float: right;
@@ -52,57 +52,58 @@ header{
   font-size: 20px;
   font-weight: 400;
   color: #fff;
-  text-shadow:5px 5px 5px #004aad;
+  text-shadow: 5px 5px 5px #004aad;
 }
 
-.nav-item{
+.nav-item {
   border: 1px solid #fff;
   margin: 10px;
   border-radius: 5px;
   overflow: hidden;
 }
 
-.nav-link{
+.nav-link {
   color: white;
 }
 
-.navbar .navbar-nav .nav-item .nav-link:hover{
+.navbar .navbar-nav .nav-item .nav-link:hover {
   text-decoration: none;
   background-color: #fff;
   color: black;
 }
 
 
-footer{
+footer {
   font-family: 'Saira', sans-serif;
   background-image: url(src/images/footer.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.main-footer{
+.main-footer {
   padding: 10px;
 }
 
-#footer-logo{
+#footer-logo {
   position: relative;
   left: -40px;
 }
 
-#footer-title{
+#footer-title {
   position: relative;
   left: -40px;
 }
 
-.info-co{
+.info-co {
   position: relative;
   margin: 15px auto;
   text-align: center;
 }
 
-.footer-link-icon{
+.footer-link-icon {
   font-size: x-large;
 }
+
 /*---------------------------------TRANG CHỦ---------------------------------------*/
 .nenvang_tc {
   background-color: yellow;
@@ -167,7 +168,7 @@ a.lk_dt:hover {
   text-align: justify;
 }
 
-.tieude_dt{
+.tieude_dt {
   text-decoration: underline;
   height: 3ex;
 }
