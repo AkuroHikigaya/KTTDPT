@@ -253,6 +253,7 @@ img.anh_tt {
 
 div.khung_tt {
   height: 50ex;
+  margin-bottom: 20px;
 }
 
 /*---------------------------------GIẢNG VIÊN---------------------------------------*/
@@ -387,61 +388,42 @@ figcaption,
   background-color: blue;
 }
 
+
+/*---------------------------------Thích ứng---------------------------------------*/
 @media screen and (max-width: 800px) {
-  .column {
-    flex: 50%;
-    max-width: 50%;
-  }
-
-
-}
-
-@media screen and (max-width: 600px) {
-  .column {
-    flex: 100%;
-    max-width: 100%;
+  *{
+    border: 1px solid black;
   }
 
   header{
-    /* height: 120px; */
+    height: 250px;
   }
-  
+
   #logo{
-    width: 60px;
-    left: auto;
-    right: auto;
+    opacity: 0%;
   }
-  
+
   #header-title-1{
-    position: relative;
-    bottom: 80px;
-    left: auto;
-    right: auto;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 700;
-    color: #fff;
-    text-shadow:5px 5px 5px #004aad;
   }
   
   #header-title-2{
-    position: relative;
-    bottom: 80px;
-    left: auto;
-    right: auto;
     font-size: 10px;
     font-weight: 400;
-    color: #fff;
-    text-shadow:5px 5px 5px #004aad;
   }
   
   #header-title-3{
-    position: relative;
-    bottom: 50px;
-    float: right;
-    right: 10px;
-    font-size: 7px;
+    right: 100px;
+    font-size: 10px;
     font-weight: 400;
-    color: #fff;
-    text-shadow:5px 5px 5px #004aad;
-  }
+  }  
+
+}
+
+/* *{
+  border: 1px solid black;
+} */
+@media screen and (max-width: 600px) {
+
 }
