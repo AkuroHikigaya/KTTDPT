@@ -390,11 +390,18 @@ figcaption,
 
 
 /*---------------------------------Thích ứng---------------------------------------*/
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
+  #footer-logo{
+    left: auto;
+    right: auto;
+    width: 70%;
+  }
 
- 
+  .navbar{
+    width: 100vw;
+  }
+
   header{
-    
     margin-top: 56px;
     margin-bottom: -70px;
     height: 160px;
@@ -422,24 +429,5 @@ figcaption,
     font-weight: 400;
     margin-top: 30px;
   }  
-
 }
 
-/* *{
-  border: 1px solid black;
-} */
-
-/*----------------TEST----------------------*/
-/*
-@media screen and (max-width: 600px) {
-header{
-  background-image: url(src/white.png);
-}
-.hide{
-  display: none;
-}
-}*/
-
-@media screen and (max-width: 600px) {
-
-}
