@@ -104,7 +104,8 @@ footer{
 
 #footer-logo{
   position: relative;
-  left: -40px;
+  left: -10px;
+  width: 100%;
 }
 
 #footer-title{
